@@ -18,7 +18,6 @@ export class SwitchesPageComponent {
   onSave(): void {
     if (this.myForm.invalid) {
       this.myForm.markAllAsTouched();
-      console.log('MAL');
       return;
     }
     console.log(this.myForm.value);
